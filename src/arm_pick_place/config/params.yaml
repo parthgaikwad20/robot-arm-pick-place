@@ -1,0 +1,7 @@
+pick_place:
+  ros__parameters:
+    pick_xyz: [0.30, 0.10, 0.02]    # cube centre at start (m, base_link frame)
+    place_xyz: [0.10, -0.30, 0.02]  # where to put it
+    approach_height: 0.13           # approach/lift height above the cube
+    speed: 0.12                     # Cartesian speed, m/s
+    loop: true                      # carry it back and forth forever
